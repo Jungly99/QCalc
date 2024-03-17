@@ -26,7 +26,7 @@ public final void subtract(double num1, double num2){
 
     double result = num1 - num2;
 
-    if((result == -Double.MAX_VALUE) || (result == Double.NEGATIVE_INFINITY)){
+    if((result == -Double.MAX_VALUE) || (result == Double.NEGATIVE_INFINITY)||(result == Double.MAX_VALUE) || (result == Double.POSITIVE_INFINITY)){
 
         throw new ArithmeticException("Double overflow");
 
