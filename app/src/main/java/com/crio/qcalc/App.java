@@ -14,7 +14,8 @@ public class App {
 
        StandardCalculator calc = new StandardCalculator();
 
-       calc.add(1.5, 2.5);
+       calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
+
 
        System.out.println(calc.getResult());
 
