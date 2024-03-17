@@ -14,7 +14,7 @@ public class App {
 
        StandardCalculator calc = new StandardCalculator();
 
-       calc.add(1, 2);
+       calc.add(1.5, 2.5);
 
        System.out.println(calc.getResult());
 
