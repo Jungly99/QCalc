@@ -36,7 +36,7 @@ public void divide(double num1, double num2){
 }
 
 
-public void setResult(int value) {
+public void setResult(double value) {
 
     if (value != 0)
 
