@@ -37,6 +37,30 @@ public class StandardCalculatorTest {
             }
         });
     }
+    
+   @Test
+
+   @DisplayName("Test Division Divide By Zero Scenario")
+
+   void testDivisionDivideByZero(){
+
+       //Assert
+
+       Assertions.assertThrows(ArithmeticException.class,new Executable(){
+
+           @Override
+
+           public void execute() throws Throwable{
+
+               standardCalculator.divide(10,0);
+
+           }
+
+       });
+
+   }
+
+
 
     @Test
     @DisplayName("Test Addition of Two Doubles")
