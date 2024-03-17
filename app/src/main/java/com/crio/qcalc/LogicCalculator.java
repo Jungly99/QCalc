@@ -13,7 +13,7 @@ public class LogicCalculator extends StandardCalculator{
 
     public void AND(int num1, int num2){
 
-        result = num1 | num2;
+        result = num1 & num2;
 
     }
 
